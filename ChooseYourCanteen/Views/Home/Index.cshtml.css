@@ -1,0 +1,85 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+* {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: #F8F3E3;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #FCD284;
+    display: flex;
+    align-items: center;
+}
+div img{
+    width: 177px;
+    height: 100px;
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header .col-9 {
+    display: flex;
+    justify-content: end;
+    gap:50px;
+}
+    header .col-9 a:hover, a:active {
+        color: #F8F3E3;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    header .col-9 a:link, a:visited {
+        color: #242121;
+        font-weight: 600;
+        text-decoration: none;
+    }
+.row {
+    width: 100%;
+}
+#ButtonTap .row .col-sm-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#TapChoose {
+    background: #FFE6B8;
+    border-radius: 30px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inTapChoose {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+#Banner {
+    position: relative;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 125px;
+}
+
+#Header {
+    position: relative;
+    width: 100%;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+    background: #FCD284;
+}

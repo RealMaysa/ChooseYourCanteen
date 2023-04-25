@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Choose Your Canteen";
+}
+
+<head>
+    <link rel="stylesheet" href="index.cshtml.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <style>
+        button{
+		border-radius: 35px;
+        width: 200px;
+        height: 75px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+        color: #F8F3E3;
+        }
+    </style>
+    
+  </head>
+
+<body>
+    <header>
+        <div class=" container-fluid " id="Header">
+            <div class="row">
+                <div class="col-3">
+                    <a href="https://www.picz.in.th/image/yTOkgn"><img src="https://sv1.picz.in.th/images/2023/04/25/yTOkgn.md.png" alt="yTOkgn.png" /></a>
+                </div>
+                <div class="col-9">
+                    <a href="#">UserProfile</a>
+                    <a href="#">Log Out</a>
+                </div>
+        </div>
+    </header>
+  <div class=" container-fluid pt-3" id="Banner">
+        <div class="row">
+      <div class="col-sm-12 text-center ">
+      <p>Choose Your Canteen</p>
+      </div>
+    </div>
+  </div>
+
+    <div class=" container-fluid" id="TapChoose">
+    <div class="row">
+        <div class="col-sm-12 text-center "id="inTapChoose">
+          <form name="form1" id="form1" action="/action_page.php">
+            <label for="detail"><b>โรงอาหาร : </b></label> <select name="subject" id="subject">
+              <option value="" selected="selected"name="detail">เลือกโรงอาหาร</option>
+            </select>
+            <br><br>
+            <label for="detail"><b>หมายเหตุ : </b></label>
+              <input type="text" placeholder="กรอกหมายเหตุ" name="detail" required>
+            </select>
+            <br><br>
+          </form>
+        </div>
+      </div>
+	</div>
+	<div class=" container-fluid mt-sm-1" id="ButtonTap">
+        <div class="row">
+            <div class="col-sm-6">
+                <button class="button" style="background: #526FD5">Confirm</button>
+            </div>
+            <div class="col-sm-6">
+                <button class="button" style="background: #FF2047">Cancel</button>
+            </div>
+        </div>
+    </div>
+	
+</body>
+@section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+}

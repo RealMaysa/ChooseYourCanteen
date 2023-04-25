@@ -1,0 +1,81 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+body[b-w5top98efc] {
+    position: relative;
+}
+.footer[b-w5top98efc] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    padding: 5px 0px 5px 0px;
+    line-height: 60px;
+    background-color: #242121;
+    color: #f8f3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.columns[b-w5top98efc] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column1[b-w5top98efc] {
+    flex: 25%;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: left;
+}
+
+.column2[b-w5top98efc] {
+    flex: 50%;
+    padding: 0px;
+    font-size: 12px;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.column3[b-w5top98efc] {
+    flex: 11%;
+    padding: 0px;
+    font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+}
+
+img[b-w5top98efc] {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 980px) {
+    .column1[b-w5top98efc] {
+        flex: 50%;
+        justify-content: left;
+    }
+
+    .column2[b-w5top98efc] {
+        flex: 50%;
+        justify-content: right;
+    }
+
+    .column3[b-w5top98efc] {
+        display: none;
+    }
+}
